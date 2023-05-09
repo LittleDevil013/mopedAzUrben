@@ -1,0 +1,30 @@
+body {
+    background-image: url(../mopedAzUrben/images/bigBack.jpeg);
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.openScreen { 
+    width: 861px;
+    height: 595px;
+    background-image: url(../mopedAzUrben/images/openScreen.png);
+    display: flex;
+    flex-direction: column-reverse;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.textArea {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(215, 108, 108);
+    font-size: 35px;
+}
+
