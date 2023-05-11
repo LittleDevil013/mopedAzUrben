@@ -24,6 +24,16 @@ window.addEventListener('keydown' , function(event) {
             clearOpenScreen();
             let backgroundMusic = new Audio('../mopedAzUrben/music/backMusic.mp3');
             backgroundMusic.play();
+            backgroundMusic.loop = true;
+            createGameArea();
+           
         }
 });
 
+function createGameArea() {
+    let canvas = document.createElement('canvas');
+    canvas.setAttribute("id" , "gameArea");
+    context = canvas.getContext('2d');
+    document.body.insertBefore(canvas, document.body.childNodes[0]);
+    
+}
